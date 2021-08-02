@@ -1,0 +1,73 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "7 accessibility violations were detected: expected 7 to equal 0",
+      "children" : [ {
+        "name" : "Accessibility",
+        "uid" : "b15cea21c7923f91",
+        "parentUid" : "29677a02ffbd9e2899dd3001c9fe4075",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620653021320,
+          "stop" : 1620653023527,
+          "duration" : 2207
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "29677a02ffbd9e2899dd3001c9fe4075"
+    }, {
+      "name" : "5 accessibility violations were detected: expected 5 to equal 0",
+      "children" : [ {
+        "name" : "Exluding site tunnel",
+        "uid" : "e83b8ed343d0a3b8",
+        "parentUid" : "d49301c8eadcfe33f692d348aaf6630c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620653026013,
+          "stop" : 1620653028378,
+          "duration" : 2365
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d49301c8eadcfe33f692d348aaf6630c"
+    }, {
+      "name" : "1 accessibility violation was detected: expected 1 to equal 0",
+      "children" : [ {
+        "name" : "Test Only Footer",
+        "uid" : "7bb03e86a401e5c7",
+        "parentUid" : "0e8b4feed6bb36c8850558cd62600df9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620653030083,
+          "stop" : 1620653032020,
+          "duration" : 1937
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Include only P1, P2 issues",
+        "uid" : "7333131e5acafe19",
+        "parentUid" : "0e8b4feed6bb36c8850558cd62600df9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620653033987,
+          "stop" : 1620653036840,
+          "duration" : 2853
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0e8b4feed6bb36c8850558cd62600df9"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

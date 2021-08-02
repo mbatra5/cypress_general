@@ -1,0 +1,29 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "Cypress Learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "TestSum": "npm run test -- --spec cypress/integration/examples/TestSum.js --browser chrome",
+    "TestSumEdge": "npm run test -- --spec cypress/integration/examples/TestSum.js --browser edge",
+    "BP_Home": "npm run test -- --spec cypress/integration/examples/BP_Home.js --browser chrome"
+  },
+  "author": "Madhur",
+  "license": "ISC",
+  "devDependencies": {
+    "@applitools/eyes-cypress": "^3.21.0",
+    "@shelex/cypress-allure-plugin": "^2.5.1",
+    "axe-core": "^3.5.5",
+    "cypress": "^7.2.0",
+    "cypress-axe": "^0.12.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-msteams-reporter": "^1.0.2",
+    "cypress-xpath": "^1.4.0",
+    "mocha": "^8.3.2",
+    "mochawesome": "^4.1.0"
+  },
+  "dependencies": {
+    "cypress-commands": "^1.1.0"
+  }
+}

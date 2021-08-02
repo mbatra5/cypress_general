@@ -1,0 +1,101 @@
+{
+  "97f3508f9eca0253f4ef3a545f7fa81a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e83b8ed343d0a3b8",
+      "status" : "failed",
+      "statusDetails" : "5 accessibility violations were detected: expected 5 to equal 0",
+      "time" : {
+        "start" : 1620653026013,
+        "stop" : 1620653028378,
+        "duration" : 2365
+      }
+    } ]
+  },
+  "f9912b503c1cf759cc2bafde1100b29a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "de3a83fbfb9ee64b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620653036862,
+        "stop" : 1620653038618,
+        "duration" : 1756
+      }
+    } ]
+  },
+  "0c3afa05a21c3ce95b15308c9f408995" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7333131e5acafe19",
+      "status" : "failed",
+      "statusDetails" : "1 accessibility violation was detected: expected 1 to equal 0",
+      "time" : {
+        "start" : 1620653033987,
+        "stop" : 1620653036840,
+        "duration" : 2853
+      }
+    } ]
+  },
+  "af1551cca30ff47c6a364982e91a3ca1" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7bb03e86a401e5c7",
+      "status" : "failed",
+      "statusDetails" : "1 accessibility violation was detected: expected 1 to equal 0",
+      "time" : {
+        "start" : 1620653030083,
+        "stop" : 1620653032020,
+        "duration" : 1937
+      }
+    } ]
+  },
+  "31089721a629305e08da88afe7139f8c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b15cea21c7923f91",
+      "status" : "failed",
+      "statusDetails" : "7 accessibility violations were detected: expected 7 to equal 0",
+      "time" : {
+        "start" : 1620653021320,
+        "stop" : 1620653023527,
+        "duration" : 2207
+      }
+    } ]
+  }
+}

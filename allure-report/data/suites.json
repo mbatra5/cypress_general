@@ -1,0 +1,74 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Accessibility Test",
+    "children" : [ {
+      "name" : "Accessibility",
+      "uid" : "b15cea21c7923f91",
+      "parentUid" : "e82249c974d113510dcf0ba62d5178c7",
+      "status" : "failed",
+      "time" : {
+        "start" : 1620653021320,
+        "stop" : 1620653023527,
+        "duration" : 2207
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Exluding site tunnel",
+      "uid" : "e83b8ed343d0a3b8",
+      "parentUid" : "e82249c974d113510dcf0ba62d5178c7",
+      "status" : "failed",
+      "time" : {
+        "start" : 1620653026013,
+        "stop" : 1620653028378,
+        "duration" : 2365
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test Only Footer",
+      "uid" : "7bb03e86a401e5c7",
+      "parentUid" : "e82249c974d113510dcf0ba62d5178c7",
+      "status" : "failed",
+      "time" : {
+        "start" : 1620653030083,
+        "stop" : 1620653032020,
+        "duration" : 1937
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Include only P1, P2 issues",
+      "uid" : "7333131e5acafe19",
+      "parentUid" : "e82249c974d113510dcf0ba62d5178c7",
+      "status" : "failed",
+      "time" : {
+        "start" : 1620653033987,
+        "stop" : 1620653036840,
+        "duration" : 2853
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Exclude specific rule for footer",
+      "uid" : "de3a83fbfb9ee64b",
+      "parentUid" : "e82249c974d113510dcf0ba62d5178c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620653036862,
+        "stop" : 1620653038618,
+        "duration" : 1756
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e82249c974d113510dcf0ba62d5178c7"
+  } ],
+  "name" : "suites"
+}

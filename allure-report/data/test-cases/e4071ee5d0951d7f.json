@@ -1,0 +1,258 @@
+{
+  "uid" : "e4071ee5d0951d7f",
+  "name" : "Exclude specific rule for footer",
+  "fullName" : "Exclude specific rule for footer",
+  "historyId" : "f9912b503c1cf759cc2bafde1100b29a",
+  "time" : {
+    "start" : 1620652852775,
+    "stop" : 1620652854029,
+    "duration" : 1254
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1620652852775,
+        "stop" : 1620652853953,
+        "duration" : 1178
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit (\"https://www.castrol.com\")",
+        "time" : {
+          "start" : 1620652852812,
+          "stop" : 1620652853487,
+          "duration" : 675
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://www.castrol.com/content/castrol/country-sites/en/global/home/jcr:content/root/sitetunnel.result.json?cb=1620652853224",
+        "time" : {
+          "start" : 1620652853487,
+          "stop" : 1620652853487,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get (\".nr-cookie-notification__cta-button\")",
+        "time" : {
+          "start" : 1620652853487,
+          "stop" : 1620652853490,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1620652853490,
+          "stop" : 1620652853915,
+          "duration" : 425
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://www.castrol.com/home.pafrs-sc.json?q=1620652854",
+        "time" : {
+          "start" : 1620652853915,
+          "stop" : 1620652853915,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "injectAxe",
+        "time" : {
+          "start" : 1620652853915,
+          "stop" : 1620652853952,
+          "duration" : 37
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "readFile (\"./node_modules/axe-core/axe.min.js\")",
+          "time" : {
+            "start" : 1620652853915,
+            "stop" : 1620652853944,
+            "duration" : 29
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "checkA11y (\".nr-footer__wrapper\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1620652853953,
+        "stop" : 1620652854029,
+        "duration" : 76
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "0 accessibility violations were detected: expected **0** to equal **0** assert",
+        "time" : {
+          "start" : 1620652854029,
+          "stop" : 1620652854029,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j90&aip=1&a=1207877382&t=event&ni=0&_s=1&dl=https://www.castrol.com/&ul=en-gb&de=UTF-8&dt=CASTROL.COM WORLDWIDE&sd=30-bit&sr=1680x1050&vp=2560x1480&je=0&ec=internal&ea=Agree&el=https://www.castrol.com/#&_u=YGDACEABBAAAAG~&jid=739905573&gjid=1348113155&cid=1893521690.1620652855&tid=UA-49486058-1&_gid=877286654.1620652855&_r=1&gtm=2wg4s0NW3ZNVF&z=513507260",
+      "time" : {
+        "start" : 1620652855056,
+        "stop" : 1620652855056,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j90&tid=UA-49486058-1&cid=1893521690.1620652855&jid=739905573&gjid=1348113155&_gid=877286654.1620652855&_u=YGDACEABBAAAAG~&z=1321178213",
+      "time" : {
+        "start" : 1620652855057,
+        "stop" : 1620652855057,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j90&tid=UA-49486058-1&cid=1893521690.1620652855&jid=1965115403&gjid=795512379&_gid=877286654.1620652855&_u=YGBAgEABAAAAAE~&z=1130953522",
+      "time" : {
+        "start" : 1620652855057,
+        "stop" : 1620652855057,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Accessibility Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e4071ee5d0951d7f.json",
+  "parameterValues" : [ ]
+}

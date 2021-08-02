@@ -1,0 +1,17 @@
+{
+  "chromeWebSecurity": false,
+  "reporter": "junit",
+  "viewportHeight": 1480,
+  "viewportWidth": 2560,
+  "defaultCommandTimeout": 10000,
+  "projectId": "xgq9h7",
+  "retries": 1,
+  "video": false,
+
+  "env": {
+    "url": "https://rahulshettyacademy.com",
+    "allureResultsPath": "allure-results",
+    "allure": true,
+    "allureLogCypress": true
+  }
+}

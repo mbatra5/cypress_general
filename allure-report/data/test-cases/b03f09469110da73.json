@@ -1,0 +1,349 @@
+{
+  "uid" : "b03f09469110da73",
+  "name" : "Exluding site tunnel",
+  "fullName" : "Exluding site tunnel",
+  "historyId" : "97f3508f9eca0253f4ef3a545f7fa81a",
+  "time" : {
+    "start" : 1620652841528,
+    "stop" : 1620652843966,
+    "duration" : 2438
+  },
+  "status" : "failed",
+  "statusMessage" : "5 accessibility violations were detected: expected 5 to equal 0",
+  "statusTrace" : "AssertionError: 5 accessibility violations were detected: expected 5 to equal 0\n    at Context.eval (https://www.castrol.com/__cypress/tests?p=cypress/support/index.js:12012:20)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "5 accessibility violations were detected: expected 5 to equal 0",
+    "statusTrace" : "AssertionError: 5 accessibility violations were detected: expected 5 to equal 0\n    at Context.eval (https://www.castrol.com/__cypress/tests?p=cypress/support/index.js:12012:20)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1620652841528,
+        "stop" : 1620652843291,
+        "duration" : 1763
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit (\"https://www.castrol.com\")",
+        "time" : {
+          "start" : 1620652841562,
+          "stop" : 1620652842764,
+          "duration" : 1202
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://www.castrol.com/content/castrol/country-sites/en/global/home/jcr:content/root/sitetunnel.result.json?cb=1620652842742",
+        "time" : {
+          "start" : 1620652842764,
+          "stop" : 1620652842764,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get (\".nr-cookie-notification__cta-button\")",
+        "time" : {
+          "start" : 1620652842764,
+          "stop" : 1620652842776,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1620652842776,
+          "stop" : 1620652843233,
+          "duration" : 457
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://www.castrol.com/home.pafrs-sc.json?q=1620652843",
+        "time" : {
+          "start" : 1620652843232,
+          "stop" : 1620652843232,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "injectAxe",
+        "time" : {
+          "start" : 1620652843233,
+          "stop" : 1620652843291,
+          "duration" : 58
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "readFile (\"./node_modules/axe-core/axe.min.js\")",
+          "time" : {
+            "start" : 1620652843233,
+            "stop" : 1620652843284,
+            "duration" : 51
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "checkA11y (\"[object Object]\")",
+      "time" : {
+        "start" : 1620652843292,
+        "stop" : 1620652843966,
+        "duration" : 674
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "landmark-complementary-is-top-level on 1 Node a11y error!",
+        "time" : {
+          "start" : 1620652843510,
+          "stop" : 1620652843510,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "landmark-one-main on 1 Node a11y error!",
+        "time" : {
+          "start" : 1620652843510,
+          "stop" : 1620652843510,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "page-has-heading-one on 1 Node a11y error!",
+        "time" : {
+          "start" : 1620652843510,
+          "stop" : 1620652843510,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "region on 1 Node a11y error!",
+        "time" : {
+          "start" : 1620652843510,
+          "stop" : 1620652843510,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "bypass on 1 Node a11y error!",
+        "time" : {
+          "start" : 1620652843510,
+          "stop" : 1620652843510,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "5 accessibility violations were detected: expected **5** to equal **0** assert",
+        "time" : {
+          "start" : 1620652843966,
+          "stop" : 1620652843966,
+          "duration" : 0
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "1f4c22f71f91595d",
+      "name" : "examples/axe-app.js:2021-05-10T13:20:41.044Z",
+      "source" : "1f4c22f71f91595d.png",
+      "type" : "image/png",
+      "size" : 211442
+    }, {
+      "uid" : "4c5f8d7f0a75be0b",
+      "name" : "examples/axe-app.js:2021-05-10T13:20:43.516Z",
+      "source" : "4c5f8d7f0a75be0b.png",
+      "type" : "image/png",
+      "size" : 212224
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 15,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j90&aip=1&a=1207877382&t=event&ni=0&_s=1&dl=https://www.castrol.com/&ul=en-gb&de=UTF-8&dt=CASTROL.COM WORLDWIDE&sd=30-bit&sr=1680x1050&vp=2560x1480&je=0&ec=internal&ea=Agree&el=https://www.castrol.com/#&_u=YGDACEABBAAAAG~&jid=739905573&gjid=1348113155&cid=1893521690.1620652855&tid=UA-49486058-1&_gid=877286654.1620652855&_r=1&gtm=2wg4s0NW3ZNVF&z=513507260",
+      "time" : {
+        "start" : 1620652855056,
+        "stop" : 1620652855056,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j90&tid=UA-49486058-1&cid=1893521690.1620652855&jid=739905573&gjid=1348113155&_gid=877286654.1620652855&_u=YGDACEABBAAAAG~&z=1321178213",
+      "time" : {
+        "start" : 1620652855057,
+        "stop" : 1620652855057,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j90&tid=UA-49486058-1&cid=1893521690.1620652855&jid=1965115403&gjid=795512379&_gid=877286654.1620652855&_u=YGBAgEABAAAAAE~&z=1130953522",
+      "time" : {
+        "start" : 1620652855057,
+        "stop" : 1620652855057,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Accessibility Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b03f09469110da73.json",
+  "parameterValues" : [ ]
+}

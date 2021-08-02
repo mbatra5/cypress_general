@@ -1,0 +1,51 @@
+[ {
+  "uid" : "7333131e5acafe19",
+  "name" : "Include only P1, P2 issues",
+  "time" : {
+    "start" : 1620653033987,
+    "stop" : 1620653036840,
+    "duration" : 2853
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e83b8ed343d0a3b8",
+  "name" : "Exluding site tunnel",
+  "time" : {
+    "start" : 1620653026013,
+    "stop" : 1620653028378,
+    "duration" : 2365
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b15cea21c7923f91",
+  "name" : "Accessibility",
+  "time" : {
+    "start" : 1620653021320,
+    "stop" : 1620653023527,
+    "duration" : 2207
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7bb03e86a401e5c7",
+  "name" : "Test Only Footer",
+  "time" : {
+    "start" : 1620653030083,
+    "stop" : 1620653032020,
+    "duration" : 1937
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "de3a83fbfb9ee64b",
+  "name" : "Exclude specific rule for footer",
+  "time" : {
+    "start" : 1620653036862,
+    "stop" : 1620653038618,
+    "duration" : 1756
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
